@@ -1,0 +1,22 @@
+user flow: pick a style, go to the next question on buget which should appear after only a style has been chosen and provide recs which should also appear only after a budget has been chosen
+list of rec shops is based on chosen style + budget
+some budget buttons should be greyed out depending on the style chosen for eg you cannotget designer furniture below 10k
+to show preview of some of the furniture in the listed shops to give pple some sense. if they are interested they can just click on the link to be redirected to the shop's website. 
+
+preview is done thru webscrapping. used browse.ai. 
+what i can do better: see if i can create a single DB to put all my scrapped stuff (it now exists as separate json files) and do some backend-frontend integration. i think my main.js can also be written more efficiently
+
+
+notes
+
+querySelectorAll vs getElementByID:
+    querySelectorAll selects all the elements within the class. Returns an array
+    getElementByID selects a single element by its ID 
+
+let vs const 
+    let allows for variables to change while const keeps it constant. both are used to declare variables 
+
+`` (backticks) are to template literals i.e. can put words into a single string without ++
+
+
+

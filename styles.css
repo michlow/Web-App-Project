@@ -1,0 +1,48 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3 {
+    font-size: 18px; 
+    color: #6f7882; 
+}
+
+.equal-size {
+    height: 275px;
+    width: auto;
+    object-fit: cover; 
+}
+
+#budget {
+    display: none;
+}
+
+#shop-recommendations {
+    display: none;
+}
+
+#budget .btn {
+    margin: 10px;
+    width: 200px;
+    white-space: normal;
+}   
+
+button.btn.disabled {
+    color: #999; 
+    background-color: #e0e0e0; 
+    border-color: #ccc;
+    pointer-events: none;  
+}
+
+.custom-img-height {
+    height: 200px;
+}
+
+.aspect-ratio-img {
+    height: 500px;
+    width: 100%; 
+    object-fit: cover; 
+}
+
+/* . is to select Class, # is to select ID, x(space).y is to select y that is a descendent of x while x.y is to select both x andy within the same class attribute */
